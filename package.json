@@ -1,0 +1,27 @@
+{
+  "name": "smrxcontract",
+  "version": "1.0.0",
+  "description": "SMRX ERC20 Smart Contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:smrxcoin/smrxcontract.git"
+  },
+  "keywords": [],
+  "author": "Samsara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smrxcoin/smrxcontract/issues"
+  },
+  "homepage": "https://github.com/smrxcoin/smrxcontract#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.1"
+  }
+}
