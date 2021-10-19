@@ -48,4 +48,4 @@ You can buy SMRX on one of the most popular decentralized exchange [Uniswap](htt
 
 * Our [website](https://smrx.io/);
 * See us on [Etherscan](https://etherscan.io/token/0x7267711ba6d110e05da2b5ce663bec4a2f5ca910);
-* You can write to us in [Telegram](https://t.me/smrxcoin) or on [coin@smrx.io](mailto:coin@smrx.io).
+* You can contact us by [Telegram](https://t.me/smrxcoin) or by [coin@smrx.io](mailto:coin@smrx.io).
