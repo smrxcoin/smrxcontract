@@ -5,6 +5,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract SMRXToken is ERC20 {
     constructor(uint256 supply) ERC20("Samsara", "SMRX") {
-        _mint(msg.sender, supply * (10 ** decimals()));
+        _mint(_msgSender(), supply * (10**decimals()));
     }
 }

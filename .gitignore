@@ -68,5 +68,6 @@ yarn-error.log
 .vscode/
 .idea/
 
-.secret
+.secret*
 build/
+verify/

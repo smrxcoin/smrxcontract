@@ -1,13 +1,13 @@
 {
   "name": "smrxcontract",
-  "version": "1.0.0",
-  "description": "SMRX ERC20 Smart Contract",
+  "version": "2.0.0",
+  "description": "SMRX Smart Contracts",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test --network development"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/smrxcoin/smrxcontract#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.3.2",
-    "@truffle/hdwallet-provider": "^1.5.1"
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@openzeppelin/truffle-upgrades": "^1.15.0",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "truffle": "^5.5.6"
   }
 }
